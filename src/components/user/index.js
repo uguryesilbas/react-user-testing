@@ -21,8 +21,6 @@ function Users() {
       setUsers((prev) => [...prev, { name: user }]);
     }
     setUser("");
-
-
   };
   return (
     <div>
